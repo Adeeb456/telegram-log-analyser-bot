@@ -1,0 +1,13 @@
+1) We Need to make the package structure good
+2) Implement loose coupling
+3) we need to restrict the bot to respond to logs queries only ( filters may be)
+4) We can support files, gifs , emojis, images etc in responses in future
+5) Integrate mongodb for :
+     history
+     user tracking
+     No analytics
+6) Add more commands like /explain {any tech concept}
+7) Implement rate limiter ( through spring filter may be )
+
+
+mongodb+srv://telegram-debugging-bot-admin:<db_password>@telegram-debugging-assi.ucwbwwb.mongodb.net/?appName=Telegram-Debugging-Assistant
