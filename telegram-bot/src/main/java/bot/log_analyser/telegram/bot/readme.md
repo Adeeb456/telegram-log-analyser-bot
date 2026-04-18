@@ -79,29 +79,6 @@ mvn spring-boot:run
 
 ---
 
-## Project Structure
-
-src/
-├── main/
-│   ├── java/bot/log_analyser/telegram/bot/
-│   │   ├── bots/
-│   │   │   └── DebuggerBot.java              # Telegram bot handler
-│   │   ├── models/
-│   │   │   └── LogEntry.java                 # MongoDB document model
-│   │   ├── repository/
-│   │   │   └── LogRepository.java            # MongoDB repository
-│   │   ├── services/
-│   │   │   ├── AIService.java                # OpenRouter AI integration
-│   │   │   └── LogService.java               # Log save and history logic
-│   │   └── TelegramBotApplication.java       # Main application class
-│   └── resources/
-│       └── application.properties            # App configuration (no secrets)
-
-
-Refer to repository structure for detailed view
-
----
-
 ## Environment Variables
 
 | Variable                | Description                              |
