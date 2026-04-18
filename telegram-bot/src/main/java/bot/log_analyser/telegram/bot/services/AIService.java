@@ -2,6 +2,7 @@ package bot.log_analyser.telegram.bot.services;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.http.*;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -10,7 +11,8 @@ import reactor.core.publisher.Mono;
 @Service
 public class AIService {
 
-    private String apiKey = "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";
+    @Value("${openrouter.api.key}")
+    private String apiKey;
 
     private final String URL = "https://openrouter.ai/api/v1/chat/completions";
 
@@ -38,7 +40,7 @@ public class AIService {
 
         String jsonBody = """
         {
-          "model": "openrouter/elephant-alpha",
+          "model": "openrouter/free",
           "messages": [
             {
               "role": "system",

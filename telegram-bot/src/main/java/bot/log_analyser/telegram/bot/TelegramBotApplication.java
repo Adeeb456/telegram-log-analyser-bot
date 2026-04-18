@@ -8,8 +8,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class TelegramBotApplication {
-
-	// NOT static
 	@Value("${TELEGRAM_BOT_USERNAME}")
 	private String telegramBotUsername;
 
