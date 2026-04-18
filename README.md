@@ -119,6 +119,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Adeeb
 GitHub: https://github.com/Adeeb456
+LinkedIn: https://www.linkedin.com/in/adeebdevv
 
 ---
 
