@@ -26,17 +26,6 @@ public class AIService {
                 .defaultHeader("X-Title", "AI Debug Bot")
                 .build();
 
-//        String jsonBody = """
-//            {
-//              "model":"openrouter/free",
-//              "messages": [
-//                {
-//                  "role": "user",
-//                  "content": "%s"
-//                }
-//              ]
-//            }
-//            """.formatted(logs);
 
         String jsonBody = """
         {
